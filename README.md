@@ -40,6 +40,6 @@ Omnifood é uma landing page moderna e responsiva para um serviço fictício de 
 
 ## 🙌 Créditos
 
-Este projeto foi desenvolvido com base nas aulas de **Jonas Schmedtmann**. Curso disponível na Udemy
+Este projeto foi desenvolvido com base nas aulas de **Jonas Schmedtmann**. Curso disponível na [Udemy](https://www.udemy.com/user/jonasschmedtmann/?kw=Jonas&src=sac)
 
 [Documentação do Markdown](https://www.markdownguide.org "Guia oficial de Markdown")
