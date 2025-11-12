@@ -24,6 +24,10 @@ Omnifood é uma landing page moderna e responsiva para um serviço fictício de 
 
 • Fontes e ícones do Google Fonts e Ionicons
 
+## 📷 Preview
+
+🔗 [Veja o site publicado](https://devsandrobatista.github.io/project-omnifood/ "Omnifood")
+
 ## 📚 Aprendizados
 
 • Durante o desenvolvimento deste projeto, aprendi:
