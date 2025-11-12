@@ -6,23 +6,23 @@ Este repositório contém o projeto **Omnifood**, desenvolvido como parte do cur
 
 Omnifood é uma landing page moderna e responsiva para um serviço fictício de entrega de refeições saudáveis. O foco do projeto é aplicar conceitos fundamentais de HTML5, CSS3 e design responsivo, incluindo:
 
-• Layouts flexíveis com Flexbox e Grid
+- Layouts flexíveis com Flexbox e Grid
 
-• Tipografia e cores modernas
+- Tipografia e cores modernas
 
-• Animações e transições suaves
+- Animações e transições suaves
 
-• Design mobile-first
+- Design mobile-first
 
-• Boas práticas de estruturação e semântica
+- Boas práticas de estruturação e semântica
 
 ## 🚀 Tecnologias utilizadas
 
-• HTML5
+- HTML5
 
-• CSS3
+- CSS3
 
-• Fontes e ícones do Google Fonts e Ionicons
+- Fontes e ícones do Google Fonts e Ionicons
 
 ## 📷 Preview
 
@@ -30,17 +30,17 @@ Omnifood é uma landing page moderna e responsiva para um serviço fictício de 
 
 ## 📚 Aprendizados
 
-• Durante o desenvolvimento deste projeto, aprendi:
+- Durante o desenvolvimento deste projeto, aprendi:
 
-• Como estruturar um site responsivo do zero
+- Como estruturar um site responsivo do zero
 
-• Aplicar boas práticas de semântica HTML
+- Aplicar boas práticas de semântica HTML
 
-• Utilizar Flexbox e Grid para layout moderno
+- Utilizar Flexbox e Grid para layout moderno
 
-• Criar animações e transições suaves
+- Criar animações e transições suaves
 
-• Otimizar para dispositivos móveis
+- Otimizar para dispositivos móveis
 
 ## 🙌 Créditos
 
