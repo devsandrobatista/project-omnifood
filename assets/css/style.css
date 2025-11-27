@@ -47,6 +47,7 @@ Paragraph default: 1.6
 --- 06 BORDER-RADIUS
 
 Default: 9px
+Medium: 11px;
 
 --- 07 WHITESPACE
 
@@ -188,14 +189,19 @@ Default: 9px
   letter-spacing: 0.75px;
 }
 
-.logos {
+.section-featured .logos {
+  padding-right: 5em;
+
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 5em;
 }
 
 .logos img {
-  height: 3.2rem;
+  height: 4.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 
 /*    SECTION-HOW    */
@@ -260,41 +266,66 @@ Default: 9px
   width: 35%;
 }
 
-.section-featured {
-  background-color: red;
-  width: 100vw;
+/* SECTION-MEALS */
+.section-meals {
+  padding: 9.6rem 0;
 }
 
-.section-featured .container {
-  width: rem;
-  background-color: blue;
+.meal {
   overflow: hidden;
-  position: relative;
+  border: 2px solid #eee;
+  border-radius: 11px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
 }
 
-.logos {
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #51cf66;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.meal-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: #e67e22;
+  color: #e67e22;
+}
+
+.meal-img {
   width: 100%;
-  animation: loop 5s linear infinite;
-}
-
-.fade {
-  position: absolute;
-  /* background: linear-gradient(
-    90deg,
-    #1e293b,
-    transparent 30%,
-    transparent 70%,
-    #1e293b
-  ); */
-  inset: 0;
-  pointer-events: none;
-}
-
-@keyframes loop {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  /* border-top-right-radius: 11px;
+  border-top-left-radius: 11px; */
 }

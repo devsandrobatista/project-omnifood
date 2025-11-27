@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/general.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
   </head>
   <body>
     <header class="header">
@@ -102,26 +103,51 @@
         </div>
       </section>
 
-      <section class="section-featured">
+      <section class="section-featured carousel">
         <div class="container">
           <h2 class="heading-featured-in">Apresentado em</h2>
-          <div class="logos">
-            <img
-              src="assets/images/logos/techcrunch.png"
-              alt="Techcrunch logo"
-            />
-            <img
-              src="assets/images/logos/business-insider.png"
-              alt="Business Insider logo"
-            />
-            <img
-              src="assets/images/logos/the-new-york-times.png"
-              alt="The New York Times logo"
-            />
-            <img src="assets/images/logos/forbes.png" alt="Forbes logo" />
-            <img src="assets/images/logos/usa-today.png" alt="Usa Today logo" />
+          <div class="group-logos">
+            <div class="logos">
+              <img
+                src="assets/images/logos/techcrunch.png"
+                alt="Techcrunch logo"
+              />
+              <img
+                src="assets/images/logos/business-insider.png"
+                alt="Business Insider logo"
+              />
+              <img
+                src="assets/images/logos/the-new-york-times.png"
+                alt="The New York Times logo"
+              />
+              <img src="assets/images/logos/forbes.png" alt="Forbes logo" />
+              <img
+                src="assets/images/logos/usa-today.png"
+                alt="Usa Today logo"
+              />
+            </div>
+
+            <!-- DUPLICATA -->
+            <div aria-hidden="true" class="logos">
+              <img
+                src="assets/images/logos/techcrunch.png"
+                alt="Techcrunch logo"
+              />
+              <img
+                src="assets/images/logos/business-insider.png"
+                alt="Business Insider logo"
+              />
+              <img
+                src="assets/images/logos/the-new-york-times.png"
+                alt="The New York Times logo"
+              />
+              <img src="assets/images/logos/forbes.png" alt="Forbes logo" />
+              <img
+                src="assets/images/logos/usa-today.png"
+                alt="Usa Today logo"
+              />
+            </div>
           </div>
-          <div class="fade"></div>
         </div>
       </section>
 
@@ -195,6 +221,96 @@
           </div>
         </div>
       </section>
+
+      <section class="section-meals">
+        <div class="container">
+          <span class="subheading">Como funciona</span>
+          <h2 class="heading-secondary">
+            A Omnifood AI escolhe entre mais de 5.000 receitas
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="meal">
+            <img
+              src="assets/images/meals/meal-1.jpg"
+              alt="Gyoza Especial"
+              class="meal-img"
+            />
+            <div class="meal-tags">
+              <span class="tag">Vegetariana</span>
+            </div>
+            <p class="meal-title">Gyoza Especial</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <span><strong>650</strong> calorias</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon"
+                  name="restaurant-outline"
+                ></ion-icon>
+                <span>NutriScore <span>&reg;</span> <strong>74</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <span><strong>4.9</strong>avaliação (537)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="meal">
+            <img
+              src="assets/images/meals/meal-2.jpg"
+              alt="Salada de abacate"
+              class="meal-img"
+            />
+            <div class="meal-tags">
+              <span class="tag">Vegana</span><span class="tag">Paleo</span>
+            </div>
+            <p class="meal-title">Salada de abacate</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <span><strong>400</strong> calorias</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon"
+                  name="restaurant-outline"
+                ></ion-icon>
+                <span>NutriScore <span>&reg;</span> <strong>92</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <span><strong>4.8</strong> avaliação (441)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul>
+              <li>Vegetariana</li>
+              <li>Vegana</li>
+              <li>Pescatariana</li>
+              <li>Sem glúten</li>
+              <li>Sem lactose</li>
+              <li>Ceto</li>
+              <li>Paleo</li>
+              <li>Baixo FODMAP</li>
+              <li>Adequada para crianças</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

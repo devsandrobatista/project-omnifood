@@ -1,0 +1,29 @@
+.section-featured /* CAROUSEL */ {
+  overflow-x: auto;
+}
+
+.section-featured::-webkit-scrollbar {
+  display: none;
+}
+
+.section-featured:hover .logos {
+  animation-play-state: paused;
+}
+
+.group-logos {
+  display: flex;
+}
+
+.logos {
+  animation: spin 25s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
