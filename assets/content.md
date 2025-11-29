@@ -328,5 +328,3 @@ Personalidades:
 - Destaque em
 - CTA
 - Rodapé
-
-## 3.
