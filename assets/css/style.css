@@ -444,6 +444,9 @@ Medium: 11px;
   display: block;
   width: 100%;
 
+  overflow-clip-margin: content-box;
+  overflow: clip;
+
   transition: all 0.4s;
 }
 
