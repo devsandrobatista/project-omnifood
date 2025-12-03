@@ -35,7 +35,7 @@
           <li><a class="main-nav-link" href="#">Como funciona</a></li>
           <li><a class="main-nav-link" href="#">Refeições</a></li>
           <li><a class="main-nav-link" href="#">Depoimentos</a></li>
-          <li><a class="main-nav-link" href="#">Preços</a></li>
+          <li><a class="main-nav-link" href="#pricing">Planos</a></li>
           <li>
             <a href="#" class="main-nav-link nav-cta"
               >Experimente gratuitamente</a
@@ -476,14 +476,14 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
-          <span class="subheading">Pricing</span>
+          <span class="subheading">Planos</span>
           <h2 class="heading-secondary">Comer bem sem gastar muito</h2>
         </div>
 
-        <div class="container grid grid--2-cols">
-          <div class="pricing-plan">
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>&dollar;</span> 399</p>
@@ -498,7 +498,7 @@
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Os pedidos podem ser feitos entre 11h e 21h</span>
+                <span>Pedido das 11h às 21h.</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -516,7 +516,7 @@
               <a href="#" class="btn btn--full">Comece a comer bem</a>
             </div>
           </div>
-          <div class="pricing-plan">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Completo</p>
               <p class="plan-price"><span>&dollar;</span> 649</p>
@@ -527,11 +527,11 @@
             <ul class="list">
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>2 refeições por dia</span>
+                <span><strong>2 refeições</strong> por dia</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Pedidos 24 horas por dia, 7 dias por semana</span>
+                <span>Pedidos <strong>24/7</strong></span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -545,6 +545,52 @@
             <div class="plan-sing-up">
               <a href="#" class="btn btn--full">Comece a comer bem</a>
             </div>
+
+            <div aria-hidden="true" class="plan-ribbon">
+              <span>Melhor Preço</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Os preços incluem todos os impostos aplicáveis. Os usuários podem
+            cancelar a qualquer momento. Ambos os planos incluem o seguinte:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Nunca mais cozinhe!</p>
+            <p class="feature-text">
+              Nossas assinaturas cobrem 365 dias por ano, incluindo feriados
+              importantes.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local e orgânico</p>
+            <p class="feature-text">
+              Nossos cozinheiros utilizam apenas produtos locais, frescos e
+              orgânicos para preparar suas refeições.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">Sem desperdício</p>
+            <p class="feature-text">
+              Todos os nossos parceiros utilizam apenas recipientes
+              reutilizáveis para embalar todas as suas refeições.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause a qualquer momento</p>
+            <p class="feature-text">
+              Vai viajar? Basta pausar sua assinatura e reembolsaremos os dias
+              não utilizados.
+            </p>
           </div>
         </div>
       </section>
