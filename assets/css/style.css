@@ -477,6 +477,17 @@ Medium: 11px;
   justify-self: end;
 }
 
+.pricing-plan--starter .btn {
+  background-color: #fdf2e9;
+  color: #6f6f6f;
+
+  transition: all 0.4s linear;
+}
+
+.pricing-plan--starter .btn:hover {
+  background-color: #fae5d3;
+}
+
 .pricing-plan--complete {
   background-color: #fdf2e9;
   /* justify-self: center; */
