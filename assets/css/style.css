@@ -200,10 +200,30 @@ Medium: 11px;
 
 .logos {
   display: flex;
+  /* justify-content: space-around; */
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.group-logos {
+  display: flex;
   justify-content: space-around;
+  gap: 1.6rem;
+}
+
+.group-logos {
+  flex-shrink: 0;
+  padding-right: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.6rem;
+  min-width: 100%;
+  animation: loop 20s linear infinite;
 }
 
 .logos img {
+  display: block;
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
