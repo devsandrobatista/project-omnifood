@@ -224,6 +224,7 @@ Medium: 11px;
 
 .logos img {
   display: block;
+  margin-inline: 1.6rem;
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
@@ -302,7 +303,7 @@ Medium: 11px;
   overflow: hidden;
   border: 2px solid #eee;
   border-radius: 11px;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   transition: all 0.3s linear;
 }
 
@@ -654,4 +655,37 @@ Medium: 11px;
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/* ********************** */
+/*     CTA SECTION      */
+/* ********************** */
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta-grid {
+  background-color: #e67e22;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  border-radius: 11px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  overflow: hidden;
+
+  /* temp */
+  height: 50rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../images/eating.jpg");
+  background-size: cover;
+  background-position: center;
 }
