@@ -38,7 +38,7 @@
           <li><a class="main-nav-link" href="#">Depoimentos</a></li>
           <li><a class="main-nav-link" href="#pricing">Planos</a></li>
           <li>
-            <a href="#" class="main-nav-link nav-cta"
+            <a href="#cta" class="main-nav-link nav-cta"
               >Experimente gratuitamente</a
             >
           </li>
@@ -604,7 +604,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta-grid">
             <div class="cta-text-box">
@@ -617,6 +617,41 @@
                 pode cancelar ou pausar a qualquer momento. E a primeira
                 refeição é por nossa conta!
               </p>
+
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="fname">Nome Completo</label>
+                  <input
+                    type="text"
+                    name="full-name"
+                    id="fname"
+                    placeholder="Santso Smyth"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="iemail">Endereço de E-mail</label>
+                  <input
+                    type="email"
+                    name="email-address"
+                    id="iemail"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="iwhere">Onde você ouviu falar de nós?</label>
+                  <select name="select-where" id="iwhere" required>
+                    <option value="">Escolha uma opção:</option>
+                    <option value="friends">Amigos e familia</option>
+                    <option value="youtube">Videos no youtube</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Ad no Facebook</option>
+                    <option value="others">Outros</option>
+                  </select>
+                </div>
+                <button class="btn">Inscreva-se agora</button>
+              </form>
             </div>
             <div
               class="cta-img-box"
