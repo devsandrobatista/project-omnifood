@@ -76,6 +76,7 @@ body {
 }
 
 /* BUTTONS */
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -86,6 +87,7 @@ body {
   text-decoration: none;
 
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .btn--full:link,
@@ -111,11 +113,26 @@ body {
   box-shadow: inset 0 0 0 2px #fff;
 }
 
+.btn--form {
+  background-color: #45260a;
+  padding: 1.2rem;
+  border: none;
+  color: #fdf2e9;
+  align-self: end;
+}
+
+.btn--form:hover {
+  background-color: #fdf2e9;
+  color: #45260a;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
-  padding-bottom: 3px;
+  padding: 0.5rem;
+  /* padding-bottom: 3px; */
   border-bottom: 1px solid currentColor;
+  border-radius: 11px;
 
   color: #e67e22;
   text-decoration: none;
@@ -133,6 +150,11 @@ body {
   display: inline-block;
 
   transition: all 0.4s;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.53);
 }
 
 .margin-right-sm {
