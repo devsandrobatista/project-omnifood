@@ -94,7 +94,7 @@ Medium: 11px
   align-items: center;
 }
 
-.header .logo {
+.logo {
   height: 2.2rem;
 }
 
@@ -774,4 +774,12 @@ Medium: 11px
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.49);
+}
+
+/* **************** */
+/* FOOTER */
+/* ****************** */
+
+.footer {
+  padding: 9.4rem 0;
 }
