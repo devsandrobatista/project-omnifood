@@ -39,6 +39,8 @@ Paragraph default: 1.6
 - Accents: ;
 
 - Greys:
+#888
+#767676'
 #6f6f6f
 #555
 #333
@@ -110,8 +112,8 @@ Medium: 11px
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  padding: 0.5rem;
-  border-radius: 11px;
+  /* padding: 0.5rem; */
+  /* border-radius: 11px; */
   color: var(--gray-3);
   font-size: 1.8rem;
   font-weight: 500;
@@ -146,7 +148,7 @@ Medium: 11px
 /* ********************** */
 .section-hero {
   background-color: var(--background-tint-1);
-  padding: 4.8rem 9.6rem;
+  padding: 4.8rem 0 9.6rem 0;
   height: 100vh;
 }
 
@@ -169,7 +171,7 @@ Medium: 11px
 .hero-description {
   margin-bottom: 4.8rem;
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* HERO -> DELIVERED MEALS */
@@ -197,7 +199,7 @@ Medium: 11px
 }
 
 .delivered-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -214,11 +216,12 @@ Medium: 11px
 
 /* SECTION-FEATURED-IN */
 .section-featured {
-  padding: 4.8rem 0;
+  padding: 4.8rem 0 3.2rem 0;
 }
 
 .heading-featured-in {
   margin-bottom: 2.4rem;
+  color: #888;
   font-size: 1.4rem;
   font-weight: 500;
   text-align: center;
@@ -483,7 +486,7 @@ Medium: 11px
 }
 
 .gallery {
-  padding: 1.6rem;
+  padding: 0 1.6rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
@@ -686,7 +689,7 @@ Medium: 11px
 /*     CTA SECTION      */
 /* ********************** */
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 12.8rem;
 }
 
 .cta-grid {
@@ -754,12 +757,6 @@ Medium: 11px
   color: #aaa;
 }
 
-.cta-form select {
-}
-
-.cta-form button {
-}
-
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -779,7 +776,103 @@ Medium: 11px
 /* **************** */
 /* FOOTER */
 /* ****************** */
-
 .footer {
-  padding: 9.4rem 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='100%' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1009%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c80 C 57.6%2c105.2 172.8%2c197.6 288%2c206 C 403.2%2c214.4 460.8%2c109.2 576%2c122 C 691.2%2c134.8 748.8%2c283.2 864%2c270 C 979.2%2c256.8 1036.8%2c61.8 1152%2c56 C 1267.2%2c50.2 1382.4%2c204 1440%2c241L1440 560L0 560z' fill='rgba(207%2c 113%2c 31%2c 0.1)'%3e%3c/path%3e%3cpath d='M 0%2c316 C 96%2c339 288%2c416.4 480%2c431 C 672%2c445.6 768%2c364.2 960%2c389 C 1152%2c413.8 1344%2c521.8 1440%2c555L1440 560L0 560z' fill='rgba(230%2c 126%2c 34%2c 0.1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1009'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  /* filter: opacity(60%); */
+  padding: 12.8rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.copyright {
+  margin-top: auto;
+
+  color: #767676;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.contacts {
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.social-links .footer-link::before {
+  display: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  /* padding-bottom: 3px; */
+  color: #767676;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  position: relative;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.footer-link::before {
+  content: "";
+  background: var(--background-primary);
+  height: 1px;
+
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+
+  transition: all 0.3s linear;
+}
+
+.footer-link:hover::before {
+  left: 0;
+  right: 0;
 }

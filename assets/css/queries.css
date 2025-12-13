@@ -1,0 +1,46 @@
+/* rem and em do NOT depend on HTML font-size in media queries! Instead, 1rem = 1em = 16px  */
+
+/*  RESPONSIVE SIZES (PX)
+  MOBILE(portrait): 320 to 480
+  MOBILE(landscape):  481 to 767 
+  TABLET(portrait):  768 to 1024 
+  TABLET(landscape):  768 to 1024 and (orientation: landscape)
+  LAPTOP/DESKTOP: 1025 to 1280
+  DESKTOP: 1281 
+
+*/
+
+/* ******************************* */
+/* BELOW 1344px (Smaller desktops) */
+/* ******************************* */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+    gap: 6rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ******************************** */
+/* BELOW 1200px (Landscape Tablets) */
+/* ******************************** */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* 
+- Font size (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 86 / 98;
+
+- Spacing system (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128;
+*/
