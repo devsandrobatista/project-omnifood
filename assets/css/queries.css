@@ -16,7 +16,7 @@
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
-    gap: 6rem;
+    /* gap: 6rem; */
   }
 
   .heading-primary {
@@ -49,7 +49,7 @@
   }
 
   .hero {
-    gap: 2.8rem;
+    gap: 4.8rem;
   }
 
   .heading-secondary {
@@ -69,13 +69,14 @@
 /* BELOW 944px (Tablets) */
 /* ******************************** */
 @media (max-width: 59em) {
-  /* 8px / 16px = 0.5 = 50% */
   html {
-    font-size: 50%;
+    font-size: 50%; /* 8px / 16px = 0.5 = 50% */
   }
 
   .hero {
+    padding: 0 8rem;
     grid-template-columns: 1fr;
+    gap: 6.4rem;
   }
 
   .hero-text-box,
@@ -85,6 +86,102 @@
 
   .hero-img {
     width: 60%;
+  }
+
+  .delivered-meals {
+    margin-top: 3.2rem;
+    justify-content: center;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr; /* 3/5 = 60% + 2/5 = 40% */
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    /* HIDE NAVIGATION */
+    /* Allow NO transitions at all*/
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    /* display: none; */
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
   }
 }
 
