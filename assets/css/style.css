@@ -628,8 +628,8 @@ Medium: 11px
   top: -5px;
   z-index: 1;
   overflow: hidden;
-  width: 130px;
-  height: 125px;
+  width: 15rem;
+  height: 15.5rem;
   text-align: right;
   user-select: none;
 }
