@@ -8,4 +8,4 @@ Projeto de um website moderno e totalmente responsivo para a empresa fictícia *
 ## 📸 Preview do Projeto
 
 **Hero Section**
-![Hero Section](assets/images/hero-section*project-omnifood*.png)
+![Preview do Omnifood](assets/images/preview/hero-section_project-omnifood_.png)
