@@ -108,6 +108,7 @@ Este repositório representa **minha implementação prática e pessoal** dos co
 ## 🧑🏾‍💻 Autor
 
 👤 **Sandro Batista dos Santos**
+
 💻 Desenvolvedor Web em formação
 
 - [**GitHub**](https://github.com/devsandrobatista)
