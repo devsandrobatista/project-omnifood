@@ -1,4 +1,4 @@
-# 🍽️ Omnifood - Website Responsivo-
+# 🍽️ Omnifood - Landing Page Responsiva
 
 Projeto de um website moderno e totalmente responsivo para a empresa fictícia **Omnifood**, focada em entrega de refeições saudáveis por assinatura.
 
@@ -6,7 +6,7 @@ Projeto de um website moderno e totalmente responsivo para a empresa fictícia *
 
 ## 📸 Preview do Projeto
 
-**Hero Section**
+**Preview da Hero Section do site Omnifood**
 ![Preview do Omnifood](assets/images/preview/hero-section_project-omnifood_.png)
 
 ## 📌 Sobre o Projeto
@@ -100,7 +100,7 @@ Utilizando:
 
 Projeto desenvolvido com base no curso
 [**Build Responsive Real-World Websites with HTML and CSS**](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=CM251223G1)
-ministrado por **Jonas Schmedtmann**.
+ministrado por [**Jonas Schmedtmann**](https://x.com/jonasschmedtman).
 
 Este repositório representa **minha implementação prática e pessoal** dos conceitos ensinados no curso, com foco em aprendizado e consolidação dos fundamentos de desenvolvimento web.
 
