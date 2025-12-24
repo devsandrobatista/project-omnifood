@@ -20,4 +20,4 @@ Este projeto foi desenvolvido com foco em:
 - Boas práticas de organização e reutilização de código
 - Acessibilidade e legibilidade
 
-  O objetivo é consolidar fundamentos sólidos de **HTML5 e CSS3**, simulando um projeto real de mercado.
+O objetivo é consolidar fundamentos sólidos de **HTML5 e CSS3**, simulando um projeto real de mercado.
