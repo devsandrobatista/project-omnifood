@@ -1,4 +1,4 @@
-# 🍽️ Omnifood - Website Responsivo
+# 🍽️ Omnifood - Website Responsivo-
 
 Projeto de um website moderno e totalmente responsivo para a empresa fictícia **Omnifood**, focada em entrega de refeições saudáveis por assinatura.
 
@@ -21,3 +21,38 @@ Este projeto foi desenvolvido com foco em:
 - Acessibilidade e legibilidade
 
 O objetivo é consolidar fundamentos sólidos de **HTML5 e CSS3**, simulando um projeto real de mercado.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+  - Tags semânticas (**header**, **section**, **figure**, **footer**)
+  - Atributos de acessibilidade
+- **CSS3**
+  - Flexbox
+  - CSS Grid
+  - Media Queries
+  - Pseudo-classes e pseudo-elementos
+  - Variáveis CSS
+- **Git & GitHub**
+  - Versionamento
+  - Deploy com GitHub Pages
+
+## 📱 Responsividade
+
+O layout se adapta corretamente aos seguintes tamanhos de tela:
+
+- 🖥️ Desktop
+
+- 📱 Tablets
+
+- 📱 Smartphones
+
+Utilizando:
+
+- max-width
+
+- width: 100%
+
+- Media Queries bem definidas
+
+- Layout fluido
