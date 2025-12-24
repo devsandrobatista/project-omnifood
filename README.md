@@ -2,8 +2,7 @@
 
 Projeto de um website moderno e totalmente responsivo para a empresa fictícia **Omnifood**, focada em entrega de refeições saudáveis por assinatura.
 
-👉🏾 **Acesse o site:**
-🔗 https://devsandrobatista.github.io/project-omnifood/
+👉🏾 [**Acesse o site**](https://devsandrobatista.github.io/project-omnifood/)
 
 ## 📸 Preview do Projeto
 
@@ -61,25 +60,25 @@ Utilizando:
 
 ## 📂 Estrutura de Pastas
 
-📂 projeto/
-├── 📂 assets/
-│ ├── 📂 css/
-│ ├── 📂 images/
-│ │ ├── 📂 app/
-│ │ ├── 📂 customers/
-│ │ ├── 📂 form/
-│ │ ├── 📂 gallery/
-│ │ ├── 📂 hero/
-│ │ ├── 📂 logos/
-│ │ ├── 📂 meals/
-│ │ ├── 📂 preview/
-│ │ └── 🖼️ favicon.png
-│ └── 📂 js/
-├── 📄 content.md
-├── 📄 .gitattributes
-├── 📄 index.html
-├── 📄 LICENSE
-└── 📄 README.md
+📂 project-omnifood/<br>
+├── 📂 assets/<br>
+│ ├── 📂 css/<br>
+│ ├── 📂 images/<br>
+│ │ ├── 📂 app/<br>
+│ │ ├── 📂 customers/<br>
+│ │ ├── 📂 form/<br>
+│ │ ├── 📂 gallery/<br>
+│ │ ├── 📂 hero/<br>
+│ │ ├── 📂 logos/<br>
+│ │ ├── 📂 meals/<br>
+│ │ ├── 📂 preview/<br>
+│ │ └── 🖼️ favicon.png<br>
+│ └── 📂 js/<br>
+├── 📄 content.md<br>
+├── 📄 .gitattributes<br>
+├── 📄 index.html<br>
+├── 📄 LICENSE<br>
+└── 📄 README.md<br>
 
 ## 🚀 O que eu pratiquei neste projeto
 
