@@ -1,6 +1,6 @@
 # 🥗 Omnifood – Projeto do Curso de Jonas Schmedtmann
 
-Este repositório contém o projeto **Omnifood**, desenvolvido como parte do curso _"Build Responsive Real-World Websites with HTML and CSS"_ ministrado por Jonas Schmedtmann na plataforma Udemy.
+Este repositório contém o projeto **Omnifood**, desenvolvido como parte do curso [_"Build Responsive Real-World Websites with HTML and CSS"_](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=CM251223G1) ministrado por Jonas Schmedtmann na plataforma Udemy.
 
 ## 📌 Sobre o projeto
 

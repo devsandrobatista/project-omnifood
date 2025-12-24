@@ -30,9 +30,25 @@
     <link rel="stylesheet" href="assets/css/animation.css" />
     <link rel="stylesheet" href="assets/css/queries.css" />
     <!-- <link rel="stylesheet" href="assets/css/animation.css" /> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="http://unpkg.com/smoothscroll-polyfill0.4.4/dist/smoothscroll.min.js
+"
+    ></script>
+    <script defer src="assets/js/script.js"></script>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#">
         <img
           src="assets/images/omnifood-logo.png"
@@ -42,9 +58,9 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Como funciona</a></li>
-          <li><a class="main-nav-link" href="#">Refeições</a></li>
-          <li><a class="main-nav-link" href="#">Depoimentos</a></li>
+          <li><a class="main-nav-link" href="#how">Como funciona</a></li>
+          <li><a class="main-nav-link" href="#meals">Refeições</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Depoimentos</a></li>
           <li><a class="main-nav-link" href="#pricing">Planos</a></li>
           <li>
             <a href="#cta" class="main-nav-link nav-cta"
@@ -72,10 +88,10 @@
               fará comer de forma saudável novamente. Adaptada aos seus gostos
               pessoais e necessidades nutricionais.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#pricing" class="btn btn--full margin-right-sm"
               >Comece a comer bem</a
             >
-            <a href="#" class="btn btn--outline"
+            <a href="#how" class="btn btn--outline"
               >Aprenda mais <span class="symbol">&darr;</span></a
             >
             <div class="delivered-meals">
@@ -159,7 +175,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container center-text">
           <span class="subheading">Como funciona</span>
           <h2 class="heading-secondary">
@@ -230,7 +246,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Refeições</span>
           <h2 class="heading-secondary">
@@ -355,7 +371,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonial-container">
           <span class="subheading">Depoimentos</span>
           <h2 class="heading-secondary">
@@ -705,7 +721,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2025 by Omnifood, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2025</span> by Omnifood, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">
@@ -750,14 +767,5 @@
         </div>
       </div>
     </footer>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>
