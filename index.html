@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omnifood</title>
+    <meta
+      name="description"
+      content="Landing page responsiva desenvolvida com HTML e CSS, apresentando um layout moderno, seções bem estruturadas e foco em experiência do usuário."
+    />
+
+    <title>Omnifood &mdash; Nunca mais cozinhar!</title>
 
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.png"
+      href="assets/images/favicon/favicon.png"
       type="image/x-icon"
     />
+    <link
+      rel="apple-touch-icon"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,9 +37,7 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/general.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/animation.css" />
     <link rel="stylesheet" href="assets/css/queries.css" />
-    <!-- <link rel="stylesheet" href="assets/css/animation.css" /> -->
 
     <script
       type="module"
@@ -47,8 +55,8 @@
     ></script>
     <script defer src="assets/js/script.js"></script>
   </head>
-  <body>
-    <header class="header">
+  <body class="sticky">
+    <header class="header glass-element">
       <a href="#">
         <img
           src="assets/images/logos/omnifood-logo.png"
@@ -127,11 +135,20 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="assets/images/hero/hero.png"
-              class="hero-img"
-              alt="Mulher apreciando comida, refeições em recipientes de armazenamento e tigelas de comida sobre uma mesa"
-            />
+            <picture>
+              <source srcset="assets/images/hero/hero.webp" type="image/webp" />
+              <source
+                srcset="assets/images/hero/hero-min.png"
+                type="image/png"
+              />
+
+              <img
+                src="assets/images/hero/hero.webp"
+                class="hero-img"
+                fetchpriority="high"
+                alt="Mulher apreciando comida, refeições em recipientes de armazenamento e tigelas de comida sobre uma mesa"
+              />
+            </picture>
           </div>
         </div>
       </section>
@@ -692,17 +709,17 @@
 
           <ul class="social-links">
             <li>
-              <a href="#" class="footer-link"
+              <a href="#" class="footer-link" aria-label="Instagram"
                 ><i class="social-icon ph ph-instagram-logo"></i
               ></a>
             </li>
             <li>
-              <a href="#" class="footer-link"
+              <a href="#" class="footer-link" aria-label="Facebook"
                 ><i class="social-icon ph ph-facebook-logo"></i
               ></a>
             </li>
             <li>
-              <a href="#" class="footer-link"
+              <a href="#" class="footer-link" aria-label="Twitter"
                 ><i class="social-icon ph ph-x-logo"></i
               ></a>
             </li>

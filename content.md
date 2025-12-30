@@ -1,4 +1,6 @@
-# Omnifood
+# Text Content — Omnifood
+
+This document brings together all the textual content used on the website, including titles, descriptions, headlines, and supporting texts.
 
 ## About Omnifood
 
@@ -142,7 +144,9 @@ Privacy & terms
 - CTA
 - Footer
 
-# --------------- Tradução ---------------
+# Conteúdo Textual — Omnifood (TRADUÇÃO > pt-br)
+
+Este documento reúne todo o conteúdo textual utilizado no site incluindo títulos, descrições, chamadas e textos de apoio.
 
 ## Sobre a Omnifood
 
@@ -271,30 +275,32 @@ Diretório de receitas
 Central de ajuda
 Privacidade e termos
 
-# Etapas 1 ... 3
+## Planejamento
 
-## 1.Defina o projeto
+### 1. Defina o projeto
 
-### Defina para quem é o site
+#### Defina para quem é o site
 
-voltado para pessoas que têm uma rotina corrida — divididas entre trabalho, família, amigos e outras responsabilidades — e que, por falta de tempo, acabam deixando a alimentação em segundo plano. Ele foi criado para quem busca praticidade sem abrir mão da saúde, oferecendo soluções que ajudam a manter uma dieta equilibrada mesmo com a agenda cheia.
+Voltado para pessoas que têm uma rotina corrida — divididas entre trabalho, família, amigos e outras responsabilidades — e que, por falta de tempo, acabam deixando a alimentação em segundo plano. Ele foi criado para quem busca praticidade sem abrir mão da saúde, oferecendo soluções que ajudam a manter uma dieta equilibrada mesmo com a agenda cheia.
 
-### Defina qual é o objetivo do site
+#### Defina qual é o objetivo do site
 
-Objetivo comercial: Venda de assinaturas mensais de alimentos
-Objetivo do usuário: Alimentar-se bem sem esforço, sem gastar muito tempo e dinheiro
+- Objetivo comercial
+  - Venda de assinaturas mensais de alimentos
+- Objetivo do usuário
+  - Alimentar-se bem sem esforço, sem gastar muito tempo e dinheiro
 
-### Defina o público-alvo
+#### Defina o público-alvo
 
 Pessoas ocupadas que gostam de tecnologia, se interessam por uma alimentação saudável e têm um emprego bem remunerado.
 
-## 2. Planeje e reúna o conteúdo do site
+### 2. Planeje e reúna o conteúdo do site
 
-### Planeje o mapa do site
+#### Planeje o mapa do site
 
 Vamos apenas criar um site de marketing de uma página (muitas vezes chamado de página de destino (landing page) ), portanto, sem mapa do site.
 
-### Defina a personalidade do site
+#### Defina a personalidade do site
 
 Com base no público-alvo voltado para a tecnologia, bem como no produto real que está sendo vendido, usaremos a personalidade empreendedora/otimista. Podemos adicionar alguns elementos da personalidade calma/pacífica, já que o produto tem tudo a ver com o bem-estar do consumidor.
 
@@ -303,9 +309,9 @@ Personalidades:
 - empreendedora / otimista
 - calma / pacífica
 
-### Seções da página do plano
+#### Seções da página do plano
 
-### Seções
+#### Seções
 
 - Logotipo + Navegação
 - Destaque

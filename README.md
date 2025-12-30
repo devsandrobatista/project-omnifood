@@ -72,7 +72,7 @@ Utilizando:
 │ │ ├── 📂 logos/<br>
 │ │ ├── 📂 meals/<br>
 │ │ ├── 📂 preview/<br>
-│ │ └── 🖼️ favicon.png<br>
+│ │ └── 📂 favicon<br>
 │ └── 📂 js/<br>
 ├── 📄 content.md<br>
 ├── 📄 .gitattributes<br>

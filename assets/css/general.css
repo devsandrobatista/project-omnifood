@@ -4,12 +4,10 @@ html {
 }
 
 body {
-  /* background-color: #ddd; */
   color: #555;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1;
-
   overflow-x: hidden;
 }
 
@@ -72,7 +70,7 @@ body {
 
 .heading-tertiary {
   margin-bottom: 3rem;
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   line-height: 1.2;
 }
 
@@ -93,13 +91,17 @@ body {
   display: inline-block;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-  font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
 
-  transition: all 0.3s;
+  /* Only necessary for .btn */
+  border: none;
   cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -128,7 +130,6 @@ body {
 .btn--form {
   background-color: #45260a;
   padding: 1.2rem;
-  border: none;
   color: #fdf2e9;
   align-self: end;
 }
@@ -141,14 +142,11 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  padding: 0.5rem;
-  /* padding-bottom: 3px; */
+  padding-bottom: 2px;
   border-bottom: 1px solid currentColor;
   border-radius: 11px;
-
   color: #e67e22;
   text-decoration: none;
-
   transition: all 0.3s linear;
 }
 
@@ -160,7 +158,6 @@ body {
 
 .symbol {
   display: inline-block;
-
   transition: all 0.4s;
 }
 
@@ -185,6 +182,8 @@ strong {
   font-weight: 500;
 }
 
-img {
+img,
+.symbol,
+.plan-ribbon {
   user-select: none;
 }
